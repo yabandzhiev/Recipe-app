@@ -1,0 +1,48 @@
+.header {
+  background-color: #dbdaea;
+  color: white;
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  margin: 0;
+}
+.recipe {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.recipe__overview {
+  display: flex;
+  flex-wrap: wrap;
+}
+.header > form {
+  align-self: center;
+}
+
+.header__h1 {
+  /* display: flex;
+  justify-content: center; */
+
+  flex: 1;
+  font-weight: bold;
+  /* margin-left: 6.25rem; */
+}
+
+.recipe__button {
+  background-color: inherit;
+  border: none;
+  outline: none;
+}
+
+.header__search {
+  border-radius: 50px;
+  font-size: 1rem;
+  outline: none;
+  background-color: #ffceba;
+  border: 2px solid #013b2ea6;
+  padding-left: 10px;
+}
